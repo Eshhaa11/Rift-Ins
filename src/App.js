@@ -1,12 +1,14 @@
 import './App.css';
-import HeaderComponent from './Components/Header';
+import NavbarComp from './Components/Header';
+
 
 function App() {
   return (
-    <div className="App">
-     <HeaderComponent/>
-    </div>
-  );
-}
+     <div>
+     <h1>RIFT INSURANCE</h1>
+     <NavbarComp/>
+     </div>
+  )
+     }
 
 export default App;

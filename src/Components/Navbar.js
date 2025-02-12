@@ -1,6 +1,6 @@
 import "./Navbar.css"
 
-const HeaderComponent = () => {
+function NavbarComp () {
     return (
         <nav>
             <ul>
@@ -13,4 +13,4 @@ const HeaderComponent = () => {
     )
 }
 
-export default HeaderComponent
+export default NavbarComp
