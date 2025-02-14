@@ -1,0 +1,34 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 0 30px;
+  color: #ffffff;
+}
+
+.hero-content {
+  color: white;
+  text-align: left;
+  flex: 1;
+  position:relative;
+  top: -190px;
+
+}
+
+.hero h1 {
+  font-size: 40px; /* Adjust as needed */
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: 'Great Vibes', cursive; 
+  margin-top: 10px;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-top: 15px;
+  line-height: 1.6;
+}
