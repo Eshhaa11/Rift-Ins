@@ -7,7 +7,8 @@ const Hero = () => {
       <div className="hero-content">
         <h1>Your Shield in Uncertain Times </h1> 
         <h2> RIFT INSURANCE </h2>
-        <p>Affordable and reliable insurance services for you and your family.</p>
+        <p>At Rift Insurance, we believe in securing what matters most. <br /> 
+        Trust us to safeguard your future with reliability and care.</p>
       </div>
     </section>
   );
