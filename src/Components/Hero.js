@@ -10,6 +10,7 @@ const Hero = () => {
         <h2> RIFT INSURANCE </h2>
         <p>At Rift Insurance, we believe in securing what matters most. <br /> 
         Trust us to safeguard your future with reliability and care.</p>
+        <button className="quote-button">Get a Quote</button>
       </div>
       <div className="hero-image">
         <img src={heroImage} alt="Hero Section" />
