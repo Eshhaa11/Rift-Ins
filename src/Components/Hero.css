@@ -18,7 +18,7 @@
   text-align: left;
   flex: 1;
   position:relative;
-  top: -120px;
+  top: -40px;
 
 }
 
@@ -26,7 +26,7 @@
   font-family: "Poppins", serif;
   font-size: 30px; 
   position: relative;
-  left: 60px;
+  left: 100px;
 }
 
 .hero h2 {
@@ -35,8 +35,8 @@
   font-family: "Playfair Display", serif; 
   font-weight: bold;
   position: relative;
-  left: 100px;
-  top: -25px;
+  left: 140px;
+  top:  -30px;
 }
 
 .hero p {
@@ -45,7 +45,7 @@
   line-height: 1.6;
   position: relative;
   left: 55px;
-  top: -45px;
+  top: -50px;
 }
 
 .hero-image img {
@@ -58,7 +58,7 @@
 button {
   position: relative;
   left: 255px;
-  top: -45px;
+  top: -10px;
   padding: 10px 20px;
   border-radius: 7px;
   border: 1px solid rgb(61, 106, 255);
