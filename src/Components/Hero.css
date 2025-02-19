@@ -18,15 +18,17 @@
   text-align: left;
   flex: 1;
   position:relative;
-  top: -40px;
+  top: -60px;
 
 }
 
 .hero h1 {
   font-family: "Poppins", serif;
-  font-size: 30px; 
+  font-size: 35px; 
   position: relative;
   left: 100px;
+  top: -40px;
+  background-color: none;
 }
 
 .hero h2 {
@@ -36,7 +38,7 @@
   font-weight: bold;
   position: relative;
   left: 140px;
-  top:  -30px;
+  top:  -50px;
 }
 
 .hero p {
@@ -49,16 +51,17 @@
 }
 
 .hero-image img {
-  width: 500px; 
+  width: 450px; 
   position: relative;
-  right: 30px;
-  top: -80px;
+  right: 50px;
+  top: -120px;
 }
 
 button {
   position: relative;
+  width: 200px;
   left: 255px;
-  top: -10px;
+  top: -35px;
   padding: 10px 20px;
   border-radius: 7px;
   border: 1px solid rgb(61, 106, 255);
@@ -70,22 +73,16 @@ button {
   color: #fff;
   overflow: hidden;
   box-shadow: 0 0 0 0 transparent;
-  /* -webkit-transition: all 0.2s ease-in;
-  -moz-transition: all 0.2s ease-in; */
   transition: all 0.2s ease-in;
 }
 
 button:hover {
-  background: rgb(61, 106, 255);
+  background: rgb(1, 175, 1);
   box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
-  /* -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out; */
   transition: all 0.2s ease-out;
 }
 
 button:hover::before {
-  /* -webkit-animation: sh02 0.5s 0s linear;
-  -moz-animation: sh02 0.5s 0s linear; */
   animation: sh02 0.5s 0s linear;
 }
 
