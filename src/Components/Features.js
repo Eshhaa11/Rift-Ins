@@ -8,7 +8,7 @@ import claimsIcon from "../images/claim.png";  // Import the Easy Claims icon
 const Features = () => {
   return (
     <section className="features">
-      <h2>Why Choose Rift Insurance Agency?</h2>
+      <h2>Why Choose Rift Nakuru Insurance Agency?</h2>
       <div className="features-container">
         <div className="feature-item">
         <img src={customizablePlansIcon} alt="Customizable Plans Icon" className="feature-icon" />
