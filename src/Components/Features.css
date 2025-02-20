@@ -39,7 +39,8 @@
   }
   
   .feature-item p {
-    color: rgb(8, 8, 70);
+    color: rgb(0, 102, 165);
+    font-weight: bolder;
     font-size: 1rem;
     line-height: 1.5;
   }
