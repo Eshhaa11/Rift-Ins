@@ -1,0 +1,66 @@
+.form {
+    max-width: 450px;
+    margin: 50px auto;  
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid rgb(90, 165, 41); 
+}
+
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(90, 165, 41);
+    margin-bottom: 10px;
+}
+
+.message {
+    font-size: 16px;
+    color: rgb(0, 102, 165);
+    margin-bottom: 20px;
+}
+
+
+label {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.input {
+    width: 90px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 2px solid rgb(0, 102, 165); 
+    outline: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+span {
+    font-size: 14px;
+    color: rgb(90, 165, 41);
+    margin-bottom: 5px;
+}
+
+
+.input:focus {
+    border-color: rgb(90, 165, 41); 
+    box-shadow: 0px 0px 5px rgba(90, 165, 41, 0.5);
+}
+
+
+.submit {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: white;
+    background: rgb(0, 102, 165); 
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
