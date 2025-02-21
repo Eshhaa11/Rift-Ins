@@ -55,6 +55,6 @@
 }
 
 .feature-item:hover {
-    transform: translateY(-10px); /* Moves card up */
+    transform: translateY(-10px); 
     box-shadow: 0px 8px 15px rgba(0, 102, 165, 0.3);
 }
