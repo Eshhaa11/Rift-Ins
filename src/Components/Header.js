@@ -1,4 +1,6 @@
 import "./Navbar.css"
+import React from 'react'
+
 
 const HeaderComponent = () => {
     return (
