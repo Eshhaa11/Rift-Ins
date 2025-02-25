@@ -1,20 +1,18 @@
-import "./Navbar.css"
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
+import "./Navbar.css";
 
-
-const HeaderComponent = () => {
-    return (
-        <div>
-        <nav>
-            <ul>
-                   <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Insurance Services</a></li>
-                    <li><a href="#quote">Contact Us</a></li>
-            </ul>
-        </nav>
-        </div>
-    )
+const NavbarComp = () => {
+  return (
+    <nav className="navbar">
+      <ul>
+        <li><Link className="nav-link" to="/">Home</Link></li>  
+        <li><Link className="nav-link" to="/about">About Us</Link></li>
+        <li><Link className="nav-link" to="/services">Insurance Services</Link></li>
+        <li><Link className="nav-link" to="/contact">Contact Us</Link></li>
+      </ul>
+    </nav>
+  );
 }
 
-export default HeaderComponent
+export default NavbarComp;
