@@ -49,6 +49,36 @@ function About () {
       <p>The company believes in the motto <br/>
       "Securing your future" where our rates and services are tough to beat, <br />
        and where security is a priority, not an option.</p>
+
+      <div className="section-divider"></div>
+
+      <h2 className="our-team">Our Team</h2>
+      <h3 className="team-member">BOARD OF DIRECTORS/SHAREHOLDERS</h3>
+      <p>Ms Purvi N. Shah - Director/Shareholder</p>
+      <p>Ms Yashvi N. Shah - Director/Shareholder</p>
+      <p>Mrs Raksha H. Shah - Director/Shareholder</p>
+      <p>Mr Durgesh R. Shah - Shareholder</p>
+
+      <h3 className="team-member">SENIOR MANAGEMENT</h3>
+      <p>Purvi N. Shah - Managing Director</p>
+      <p>Yashvi N. Shah - Operations Director</p>
+      <p>Shanti Shah - Regional Director</p>
+      <p>Amos Mirasi - General Manager</p>
+      <p>Morris M. Kitoo - Financial Controller</p>
+      <p>Mary W. Mwangi - Underwriter</p>
+      <p>Ankit Kothari - Claims In Charge</p>
+
+      <h2 className="partners">OUR PARTNERS</h2>
+      <p>KENINDIA INSURANCE</p>
+      <p>GEMINIA INSURANCE CO.LTD.</p>
+      <p>MAYFAIR INSURANCE</p>
+      <p>MUA INSURANCE</p>
+      <p>APA INSURANCE</p>
+      <p>OCCIDENTAL INSURANCE</p>
+      <p>FIRST ASSURANCE </p>
+      
+
+
       
 
 
