@@ -43,6 +43,15 @@ function About () {
       providing clients with the best possible <br/>
       insurance coverage at the most competitive rates.</p>
 
+      <div className="section-divider"></div>
+
+      <h2 className="motto">MOTTO</h2>
+      <p>The company believes in the motto <br/>
+      "Securing your future" where our rates and services are tough to beat, <br />
+       and where security is a priority, not an option.</p>
+      
+
+
     </div>
   );
 }
