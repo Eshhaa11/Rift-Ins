@@ -33,6 +33,16 @@ function About () {
        ensuring clients recieve the right 
        coverage at the most competitive rates.</p>
 
+
+      <div className="section-divider"></div>
+
+      <h2 className="vision-statement">VISION STATEMENT</h2>
+      <p>Our Vision is to be the leading provider of <br/>
+      insurance solutions in the region, <br/>
+      with a commitment to <br/>
+      providing clients with the best possible <br/>
+      insurance coverage at the most competitive rates.</p>
+
     </div>
   );
 }
