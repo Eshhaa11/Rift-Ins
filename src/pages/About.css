@@ -1,0 +1,50 @@
+.custom-hr {
+    border: none;
+    height: 4px;
+    background-color:  rgb(0, 102, 165);
+    width: 100%;
+    position: relative;
+    top: -70px;
+
+}
+
+.about-heading { 
+    color: rgb(90, 165, 41);
+    font-family: 'Poppins';
+    font-size: 40px;
+    text-align: center;
+    margin-top: -40px;
+    
+}
+
+
+.section-divider {
+    width: 700px;  
+    height: 4px;  
+    background-color: rgb(90, 165, 41);  
+    margin: 20px auto;  
+    border-radius: 2px;  
+    margin-top: 70px;
+}
+
+
+.about p {
+    color:  rgb(0, 102, 165);
+    font-family: 'Open Sans';
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    margin-bottom: -30px;
+}
+
+
+.about h2 { 
+    color: rgb(90, 165, 41);
+    font-family: 'Poppins';
+    font-size: 40px;
+    text-align: center;
+    margin-top: 60px;
+    
+}
+
