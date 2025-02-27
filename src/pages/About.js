@@ -54,10 +54,13 @@ function About () {
 
       <h2 className="our-team">Our Team</h2>
       <h3 className="team-member">BOARD OF DIRECTORS/SHAREHOLDERS</h3>
+      
       <p>Ms Purvi N. Shah - Director/Shareholder</p>
       <p>Ms Yashvi N. Shah - Director/Shareholder</p>
       <p>Mrs Raksha H. Shah - Director/Shareholder</p>
       <p>Mr Durgesh R. Shah - Shareholder</p>
+
+      <div className="section-divider"></div>
 
       <h3 className="team-member">SENIOR MANAGEMENT</h3>
       <p>Purvi N. Shah - Managing Director</p>
@@ -67,6 +70,8 @@ function About () {
       <p>Morris M. Kitoo - Financial Controller</p>
       <p>Mary W. Mwangi - Underwriter</p>
       <p>Ankit Kothari - Claims In Charge</p>
+
+     <div className="section-divider"></div>
 
       <h2 className="partners">OUR PARTNERS</h2>
       <p>KENINDIA INSURANCE</p>
