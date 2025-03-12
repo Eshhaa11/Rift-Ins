@@ -1,5 +1,10 @@
 import React from "react";
 import "./About.css";
+import purviImg from "./assets/purvi.jpg";
+import yashviImg from "./assets/yashvi.jpg";
+import amosImg from "./assets/amos.jpg";
+import ankitImg from "./assets/ankit.jpg";
+import morrisImg from "./assets/morris.jpg";
 
 function About() {
   return (
@@ -74,12 +79,39 @@ function About() {
       <div className="section-divider"></div>
 
       <h3 className="team-member">SENIOR MANAGEMENT</h3>
-      <p>Purvi N. Shah - CEO/Managing Director</p>
-      <p>Yashvi N. Shah - COO/Operations Director</p>
-      <p>Shanti Shah - Regional Director</p>
-      <p>Amos Mirasi - General Manager</p>
-      <p>Morris M. Kitoo - Financial Controller</p>
-      <p>Ankit Kothari - CMO/Claims In Charge</p>
+      <h3 className="team-member">SENIOR MANAGEMENT</h3>
+      <div className="team-cards">
+        <div className="team-card">
+          <img src={purviImg} alt="Purvi N. Shah" className="team-img" />
+          <p className="name">Purvi N. Shah</p>
+          <p className="position">CEO/Managing Director</p>
+        </div>
+
+        <div className="team-card">
+          <img src={yashviImg} alt="Yashvi N. Shah" className="team-img" />
+          <p className="name">Yashvi N. Shah</p>
+          <p className="position">COO/Operations Director</p>
+        </div>
+
+        <div className="team-card">
+          <img src={amosImg} alt="Amos Mirasi" className="team-img" />
+          <p className="name">Amos Mirasi</p>
+          <p className="position">General Manager</p>
+        </div>
+
+        <div className="team-card">
+          <img src={morrisImg} alt="Morris M. Kitoo" className="team-img" />
+          <p className="name">Morris M. Kitoo</p>
+          <p className="position">Financial Controller</p>
+        </div>
+
+        <div className="team-card">
+          <img src={ankitImg} alt="Ankit Kothari" className="team-img" />
+          <p className="name">Ankit Kothari</p>
+          <p className="position">CMO/Claims In Charge</p>
+        </div>
+      </div>
+
 
       <div className="section-divider"></div>
 
