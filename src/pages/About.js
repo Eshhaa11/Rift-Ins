@@ -1,60 +1,71 @@
+import React from "react";
+import "./About.css";
 
-import React from 'react';
-import './About.css';
-
-
-function About () {
+function About() {
   return (
-    
     <div className="about">
       <hr className="custom-hr" />
       <h1 className="about-heading">OUR AGENCY</h1>
-      <p>Rift Nakuru Insurance Agencies Limited is a registered Insurance Agency
-      managed by < br/>  qualified & highly 
-      experienced personnel commited to 
-      providing outstanding level of < br/> international standard service to our 
-      corporate & individual clientels.< br/>
-      It was founded by Late Niru Shah & Late Haren Shah in 1978</p>
-      <p>Our commitment is to provide quality professional service to our clients. < br/>
-      The Team have a wide experience in providing various insurance policies < br/>
-      to the agriculture, real estate, education, manufacturing and trading sectors.</p>
-      <p>Our Company is duly registered with the Insurance Regulatory Authority < br/>
-      with license renewed up to December 2025</p>
+      <p>
+        Rift Nakuru Insurance Agencies Limited is a registered Insurance Agency
+        managed by <br /> qualified & highly experienced personnel commited to
+        providing outstanding level of <br /> international standard service to
+        our corporate & individual clientels.
+        <br />
+        It was founded by Late Niru Shah & Late Haren Shah in 1978
+      </p>
+      <p>
+        Our commitment is to provide quality professional service to our
+        clients. <br />
+        The Team have a wide experience in providing various insurance policies{" "}
+        <br />
+        to the agriculture, real estate, education, manufacturing and trading
+        sectors.
+      </p>
+      <p>
+        Our Company is duly registered with the Insurance Regulatory Authority{" "}
+        <br />
+        with license renewed up to December 2025
+      </p>
 
       <div className="section-divider"></div>
 
-      
       <h2 className="misson-statement">MISSION STATEMENT</h2>
-      <p>Rift Nakuru Insurance Agencies Ltd is a professional 
-       company providing < br/> exceptional insurance solutions 
-       through comprehensive risk assessments, < br/> dedicated 
-       customer service, and a commitment to exceeding 
-       expectations,  < br/> 
-       ensuring clients recieve the right 
-       coverage at the most competitive rates.</p>
-
+      <p>
+        Rift Nakuru Insurance Agencies Ltd is a professional company providing{" "}
+        <br /> exceptional insurance solutions through comprehensive risk
+        assessments, <br /> dedicated customer service, and a commitment to
+        exceeding expectations, <br />
+        ensuring clients recieve the right coverage at the most competitive
+        rates.
+      </p>
 
       <div className="section-divider"></div>
 
       <h2 className="vision-statement">VISION STATEMENT</h2>
-      <p>Our Vision is to be the leading provider of <br/>
-      insurance solutions in the region, <br/>
-      with a commitment to <br/>
-      providing clients with the best possible <br/>
-      insurance coverage at the most competitive rates.</p>
+      <p>
+        Our Vision is to be the leading provider of <br />
+        insurance solutions in the region, <br />
+        with a commitment to <br />
+        providing clients with the best possible <br />
+        insurance coverage at the most competitive rates.
+      </p>
 
       <div className="section-divider"></div>
 
       <h2 className="motto">MOTTO</h2>
-      <p>The company believes in the motto <br/>
-      "Securing your future" where our rates and services are tough to beat, <br />
-       and where security is a priority, not an option.</p>
+      <p>
+        The company believes in the motto <br />
+        "Securing your future" where our rates and services are tough to beat,{" "}
+        <br />
+        and where security is a priority, not an option.
+      </p>
 
       <div className="section-divider"></div>
 
       <h2 className="our-team">Our Team</h2>
       <h3 className="team-member">BOARD OF DIRECTORS/SHAREHOLDERS</h3>
-      
+
       <p>Ms Purvi N. Shah - Director/Shareholder</p>
       <p>Ms Yashvi N. Shah - Director/Shareholder</p>
       <p>Mrs Raksha H. Shah - Director/Shareholder</p>
@@ -63,15 +74,14 @@ function About () {
       <div className="section-divider"></div>
 
       <h3 className="team-member">SENIOR MANAGEMENT</h3>
-      <p>Purvi N. Shah - Managing Director</p>
-      <p>Yashvi N. Shah - Operations Director</p>
+      <p>Purvi N. Shah - CEO/Managing Director</p>
+      <p>Yashvi N. Shah - COO/Operations Director</p>
       <p>Shanti Shah - Regional Director</p>
       <p>Amos Mirasi - General Manager</p>
       <p>Morris M. Kitoo - Financial Controller</p>
-      <p>Mary W. Mwangi - Underwriter</p>
-      <p>Ankit Kothari - Claims In Charge</p>
+      <p>Ankit Kothari - CMO/Claims In Charge</p>
 
-     <div className="section-divider"></div>
+      <div className="section-divider"></div>
 
       <h2 className="partners">OUR PARTNERS</h2>
       <p>KENINDIA INSURANCE</p>
@@ -81,12 +91,6 @@ function About () {
       <p>APA INSURANCE</p>
       <p>OCCIDENTAL INSURANCE</p>
       <p>FIRST ASSURANCE </p>
-      
-
-
-      
-
-
     </div>
   );
 }
