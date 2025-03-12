@@ -24,7 +24,7 @@ const Services = () => {
         { name: "WIBA/Employers Liability", details: "Covers employee work-related injuries and illnesses." },
         { name: "Electronic Equipment", details: "Covers accidental damage to electronics." },
         { name: "All Risks Insurance", details: "Comprehensive protection for movable assets." },
-        { name: "Machinery Breakdown", details: "Covers sudden breakdown of machinery." },
+        { name: "Machinery Breakdown", details: "Covers sudden breakdown of machinery" },
         { name: "Fidelity Guarantee", details: "Protection against employee dishonesty or fraud." },
         { name: "Money Insurance", details: "Covers loss of money during transit or in premises." },
         { name: "Goods in Transit", details: "Covers goods against damage while being transported." },
