@@ -1,10 +1,10 @@
 import React from "react";
 import "./About.css";
-import purviImg from "./assets/purvi.jpg";
-import yashviImg from "./assets/yashvi.jpg";
-import amosImg from "./assets/amos.jpg";
-import ankitImg from "./assets/ankit.jpg";
-import morrisImg from "./assets/morris.jpg";
+import purviImg from "../assets/purvi.jpg";
+import yashviImg from "../assets/yashvi.jpg";
+import amosImg from "../assets/amos.jpg";
+import ankitImg from "../assets/ankit.jpg";
+import morrisImg from "../assets/morris.jpg";
 
 function About() {
   return (
@@ -79,7 +79,7 @@ function About() {
       <div className="section-divider"></div>
 
       <h3 className="team-member">SENIOR MANAGEMENT</h3>
-      <h3 className="team-member">SENIOR MANAGEMENT</h3>
+     
       <div className="team-cards">
         <div className="team-card">
           <img src={purviImg} alt="Purvi N. Shah" className="team-img" />
