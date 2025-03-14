@@ -122,7 +122,7 @@
 .partner-logo {
   width: 200px;   /* Increased size for better visibility */
   height: 200px;   /* Maintain proportion without being tiny */
-  object-fit: contain; /* Ensures logos stay clear */
+  object-fit: contain;
   
 }
 
