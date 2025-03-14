@@ -109,34 +109,43 @@
 
 .partners-logos {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); 
-  gap: 10px;
+  grid-template-columns: repeat(4, 1fr); /* 4 logos on the top row */
+  gap: 15px; /* Reduced gap for improved spacing */
   margin-top: 40px;
-  position: relative; 
+  position: relative; /* Needed for staggered positioning */
+}
+
+.partner {
+  text-align: center; /* Centers logos and names */
 }
 
 .partner-logo {
-  max-width: 200px;
-  max-height: 200px;
-  object-fit: contain;
- 
+  width: 200px;   /* Increased size for better visibility */
+  height: 200px;   /* Maintain proportion without being tiny */
+  object-fit: contain; /* Ensures logos stay clear */
+  
 }
 
 
 
+.partner-name {
+  margin-top: 5px;
+  font-weight: 600; /* Bold for better readability */
+  font-size: 14px;  /* Comfortable size for viewing */
+}
 
+/* Staggered second row positioning */
 .logo-5 {
-  grid-column: 2 / 3; 
-  margin-top: -20px;  
+  grid-column: 2 / 3;
+  margin-top: -15px; /* Slight upward shift for staggered effect */
 }
 
 .logo-6 {
-  grid-column: 3 / 4; 
-  margin-top: -20px;
+  grid-column: 3 / 4;
+  margin-top: -15px;
 }
 
 .logo-7 {
-  grid-column: 4 / 5; 
-  margin-top: -20px;
+  grid-column: 4 / 5;
+  margin-top: -15px;
 }
-
