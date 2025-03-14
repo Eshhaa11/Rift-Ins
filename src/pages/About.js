@@ -16,6 +16,9 @@ import enterpriseImg from "../assets/enterprise.png";
 import taglineImg from "../assets/tagline.png";
 import visionImg from "../assets/vision.png";
 import targetImg from "../assets/target.png";
+import peopleImg from "../assets/people.png";
+import expertImg from "../assets/expert.png";
+import dependableImg from "../assets/dependable.png";
 
 function About() {
   return (
