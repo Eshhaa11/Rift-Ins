@@ -119,6 +119,7 @@
   width: 230px;
   height: 230px;
   object-fit: contain;
+  position: relative;
  
 }
 
