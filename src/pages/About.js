@@ -135,6 +135,7 @@ function About() {
 
       <div className="section-divider"></div>
       <h2 className="partners-heading">OUR PARTNERS</h2>
+      <img src={dependableImg} alt="Partners" className="dependable-img" />
 <div className="partners-logos">
     <div className="partner">
         <img src={kenindiaImg} alt="Kenindia" className="partner-logo" />
