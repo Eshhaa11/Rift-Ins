@@ -130,7 +130,7 @@
 }
 
 .logo-6 {
-  grid-column: 3 / 4; /* Centered below Logos 3 & 4 */
+  grid-column: 3 / 4;
   margin-top: -20px;
 }
 
