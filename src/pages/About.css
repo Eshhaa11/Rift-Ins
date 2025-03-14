@@ -62,7 +62,7 @@
   display: flex;
   flex-wrap: wrap; /* Ensures cards wrap if space runs out */
   gap: 20px; /* Spacing between cards */
-  justify-content: center; /* Centers cards horizontally */
+  justify-content: center; 
   margin-top: 20px;
 }
 
