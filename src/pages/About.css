@@ -20,13 +20,26 @@
 .enterprise-img,
 .target-img,
 .vision-img,
-.tagline-img {
+.tagline-img,
+.people-img,
+.expert-img,
+.dependable-img {
     display: block;        
     margin: 15px auto;      
     width: 150px;          
     height: auto;          
 }
 
+.people-img,
+.expert-img,
+.dependable-img {
+  display: block;        
+  margin: 15px auto;      
+  width: 100px;          
+  height: auto;
+  margin-top: -20px;
+            
+}
 
 
 .section-divider {
