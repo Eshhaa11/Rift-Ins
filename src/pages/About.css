@@ -120,7 +120,7 @@
 }
 
 .partner-logo {
-  width: 200px;   /* Increased size for better visibility */
+  width: 200px;  
   height: 200px;   /* Maintain proportion without being tiny */
   object-fit: contain;
   
