@@ -127,16 +127,20 @@
 .logo-5 {
   grid-column: 2 / 3;
   margin-top: -20px; 
+  position: relative;
+  left: 300px;
 }
 
 .logo-6 {
   grid-column: 3 / 4;
   margin-top: -20px;
+  position: relative;
+  left: 300px;
 }
 
 .logo-7 {
   grid-column: 4 / 5; 
   margin-top: -20px;
   position: relative;
-  left: 100px;
+  left: 300px;
 }
