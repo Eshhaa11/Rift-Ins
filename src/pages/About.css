@@ -21,7 +21,7 @@
 .target-img,
 .vision-img,
 .tagline-img {
-    display: block;         /* Ensures full control over positioning */
+    display: block;        
     margin: 15px auto;      /* Centers the image horizontally */
     width: 150px;           /* Medium size for better visibility */
     height: auto;           /* Maintains aspect ratio */
