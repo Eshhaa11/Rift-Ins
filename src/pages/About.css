@@ -22,8 +22,8 @@
 .vision-img,
 .tagline-img {
     display: block;        
-    margin: 15px auto;      /* Centers the image horizontally */
-    width: 150px;           /* Medium size for better visibility */
+    margin: 15px auto;      
+    width: 150px;          
     height: auto;           /* Maintains aspect ratio */
 }
 
