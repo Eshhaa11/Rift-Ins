@@ -90,7 +90,8 @@
  
 }
 .team-card .name {
-  margin-top: 5px; /* Minimal spacing for better alignment */
+  font-weight: bold;
+  margin-top: 5px; 
   max-width: 100%; 
   word-wrap: break-word; 
   overflow-wrap: break-word;
@@ -98,7 +99,7 @@
 
 .team-card .position {
   color: #777;
-  font-size: 10px; /* Reduced font size for a more compact look */
+  font-size: 10px; 
   max-width: 100%; 
   word-wrap: break-word;
   overflow-wrap: break-word;
