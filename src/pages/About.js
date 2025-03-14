@@ -127,6 +127,7 @@ function About() {
     <img src={GeminiaImg} alt="Geminia" className="partner-logo" />
     <p className="name">GEMINIA INSURANCE</p>
     <img src={FirstAssuranceImg} alt="First Assurance" className="partner-logo" />
+    <p className="name">FIRST ASSURANCE</p>
     <img src={MayfairImg} alt="Mayfair" className="partner-logo" />
 
     <img src={OccidentalImg} alt="Occidental" className="partner-logo logo-5" />
