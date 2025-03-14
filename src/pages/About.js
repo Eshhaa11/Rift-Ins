@@ -132,6 +132,7 @@ function About() {
     <p className="name">MAYFAIR INSURANCE</p>
 
     <img src={OccidentalImg} alt="Occidental" className="partner-logo logo-5" />
+    <p className="name">OCCIDENTAL INSURANCE</p>
     <img src={MUImg} alt="MUA" className="partner-logo logo-6" />
     <img src={APAImg} alt="APA" className="partner-logo logo-7" />
 </div>
