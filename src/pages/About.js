@@ -7,7 +7,7 @@ import ankitImg from "../assets/ankit.jpg";
 import morrisImg from "../assets/morris.jpg";
 import kenindiaImg from "../assets/kenindia.png";
 import GeminiaImg from "../assets/Geminia.jpg";
-import FirstAssuranceImg from "../assets/FIRST-ASSUARANCE-1-1.png";
+import FirstAssuranceImg from "../assets/Fa.png";
 import MayfairImg from "../assets/Mayfair.png";
 import OccidentalImg from "../assets/Occidental.png";
 import MUImg from "../assets/MUA-Logo.png";
