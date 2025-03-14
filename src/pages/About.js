@@ -144,7 +144,7 @@ function About() {
 
     <div className="partner">
         <img src={OccidentalImg} alt="Occidental" className="partner-logo logo-5" />
-        <p className="partner-name">Occidental</p>
+        
     </div>
 
     <div className="partner">
