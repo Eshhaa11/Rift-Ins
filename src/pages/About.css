@@ -130,7 +130,7 @@
 /* Staggered second row positioning */
 .logo-5 {
   grid-column: 2 / 3; /* Centers under Logos 1 & 2 */
-  margin-top: -20px;  /* Slight upward shift for stagger effect */
+  margin-top: -20px;  
 }
 
 .logo-6 {
