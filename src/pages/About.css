@@ -75,7 +75,7 @@
   text-align: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   display: flex;
-  flex-direction: column; /* Ensures content stays stacked inside each card */
+  flex-direction: column; 
   align-items: center; 
 }
 
