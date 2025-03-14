@@ -109,7 +109,7 @@
 
 .partners-logos {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 logos on the top row */
+  grid-template-columns: repeat(4, 1fr); 
   gap: 15px; /* Reduced gap for improved spacing */
   margin-top: 40px;
   position: relative; /* Needed for staggered positioning */
