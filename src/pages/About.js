@@ -149,7 +149,7 @@ function About() {
 
     <div className="partner">
         <img src={MUImg} alt="MUA" className="partner-logo logo-6" />
-        <p className="partner-name">MUA</p>
+        
     </div>
 
     <div className="partner">
