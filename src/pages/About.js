@@ -5,6 +5,13 @@ import yashviImg from "../assets/yashvi.jpg";
 import amosImg from "../assets/amos.jpg";
 import ankitImg from "../assets/ankit.jpg";
 import morrisImg from "../assets/morris.jpg";
+import kenindiaImg from "../assets/kenindia.png";
+import GeminiaImg from "../assets/Geminia.jpg";
+import FirstAssuranceImg from "../assets/FIRST-ASSUARANCE-1-1.png";
+import MayfairImg from "../assets/Mayfair.png";
+import OccidentalImg from "../assets/Occidental.png";
+import MUImg from "../assets/MUA-Logo.png";
+import APAImg from "../assets/Apa.png";
 
 function About() {
   return (
@@ -79,7 +86,7 @@ function About() {
       <div className="section-divider"></div>
 
       <h3 className="team-member">SENIOR MANAGEMENT</h3>
-     
+
       <div className="team-cards">
         <div className="team-card">
           <img src={purviImg} alt="Purvi N. Shah" className="team-img" />
@@ -112,17 +119,19 @@ function About() {
         </div>
       </div>
 
-
       <div className="section-divider"></div>
+      <h2 className="partners-heading">OUR PARTNERS</h2>
+<div className="partners-logos">
+    <img src={kenindiaImg} alt="Kenindia" className="partner-logo" />
+    <img src={GeminiaImg} alt="Geminia" className="partner-logo" />
+    <img src={FirstAssuranceImg} alt="First Assurance" className="partner-logo" />
+    <img src={MayfairImg} alt="Mayfair" className="partner-logo" />
 
-      <h2 className="partners">OUR PARTNERS</h2>
-      <p>KENINDIA INSURANCE</p>
-      <p>GEMINIA INSURANCE CO.LTD.</p>
-      <p>MAYFAIR INSURANCE</p>
-      <p>MUA INSURANCE</p>
-      <p>APA INSURANCE</p>
-      <p>OCCIDENTAL INSURANCE</p>
-      <p>FIRST ASSURANCE </p>
+    <img src={OccidentalImg} alt="Occidental" className="partner-logo logo-5" />
+    <img src={MUImg} alt="MUA" className="partner-logo logo-6" />
+    <img src={APAImg} alt="APA" className="partner-logo logo-7" />
+</div>
+
     </div>
   );
 }
