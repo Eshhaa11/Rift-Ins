@@ -76,7 +76,7 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column; /* Ensures content stays stacked inside each card */
-  align-items: center; /* Centers content inside the card */
+  align-items: center; 
 }
 
 .team-img {
