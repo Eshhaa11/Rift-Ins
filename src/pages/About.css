@@ -108,7 +108,7 @@
 
 .partners-logos {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 logos in the top row */
+  grid-template-columns: repeat(4, 1fr); 
   gap: 30px;
   margin-top: 40px;
   position: relative; 
