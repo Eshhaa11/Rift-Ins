@@ -123,6 +123,7 @@ function About() {
       <h2 className="partners-heading">OUR PARTNERS</h2>
 <div className="partners-logos">
     <img src={kenindiaImg} alt="Kenindia" className="partner-logo" />
+    <p className="name">KENINIDIA INSURANCE</p>
     <img src={GeminiaImg} alt="Geminia" className="partner-logo" />
     <img src={FirstAssuranceImg} alt="First Assurance" className="partner-logo" />
     <img src={MayfairImg} alt="Mayfair" className="partner-logo" />
