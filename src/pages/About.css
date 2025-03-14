@@ -99,6 +99,7 @@
 
 .team-card .position {
   color: #777;
+  font-weight: bold;
   font-size: 10px; 
   max-width: 100%; 
   word-wrap: break-word;
