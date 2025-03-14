@@ -116,11 +116,11 @@
 }
 
 .partner-logo {
-  width: 230px;
+  width: 200px;
   height: 230px;
   object-fit: contain;
   position: relative;
-  left: -50px;
+  left: 50px;
  
 }
 
