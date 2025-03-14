@@ -129,7 +129,7 @@ function About() {
 
     <div className="partner">
         <img src={GeminiaImg} alt="Geminia" className="partner-logo" />
-        <p className="partner-name">Geminia</p>
+       
     </div>
 
     <div className="partner">
