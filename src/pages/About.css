@@ -109,7 +109,7 @@
 .partners-logos {
   display: grid;
   grid-template-columns: repeat(4, 1fr); 
-  gap: 30px;
+  gap: 10px;
   margin-top: 40px;
   position: relative; 
 }
