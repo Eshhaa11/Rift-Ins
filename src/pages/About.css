@@ -119,8 +119,7 @@
   width: 130px; /* Increase size for better visibility */
   height: 70px;
   object-fit: contain;
-  filter: grayscale(100%);
-  transition: filter 0.3s ease, transform 0.3s ease;
+ 
 }
 
 
