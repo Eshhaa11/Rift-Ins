@@ -135,6 +135,6 @@
 }
 
 .logo-7 {
-  grid-column: 4 / 5; /* Aligned under Logo 4 */
+  grid-column: 4 / 5; 
   margin-top: -20px;
 }
