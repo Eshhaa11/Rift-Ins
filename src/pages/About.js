@@ -88,6 +88,7 @@ function About() {
       <div className="section-divider"></div>
 
       <h2 className="our-team">Our Team</h2>
+      <img src={peopleImg} alt="Team" className="people-img" />
       <h3 className="team-member">BOARD OF DIRECTORS/SHAREHOLDERS</h3>
 
       <p>Ms Purvi N. Shah - Director/Shareholder</p>
