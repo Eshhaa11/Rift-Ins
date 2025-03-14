@@ -99,6 +99,7 @@ function About() {
       <div className="section-divider"></div>
 
       <h3 className="team-member">SENIOR MANAGEMENT</h3>
+      <img src={expertImg} alt="Senior" className="expert-img" />
 
       <div className="team-cards">
         <div className="team-card">
