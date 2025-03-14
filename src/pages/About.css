@@ -123,13 +123,17 @@
   width: 200px;  
   height: 200px;  
   object-fit: contain;
+  position: relative;
+  left: -50px;
   
 }
 
 
 
 .partner-name {
-  margin-top: 5px;
+  position: relative;
+  top: -50px;
+  left: -60px;
   font-weight: 600;
   font-size: 14px;  
 }
@@ -138,6 +142,7 @@
 .logo-5 {
   grid-column: 2 / 3;
   margin-top: -15px; 
+  margin-left: 370px;
 }
 
 .logo-6 {
