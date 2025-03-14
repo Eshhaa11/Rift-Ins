@@ -125,14 +125,6 @@
 }
 
 
-
-.partner-name {
-  margin-top: 5px;
-  font-weight: 600;
-  font-size: 14px;
-  text-align: center; /* Ensures names are centered */
-}
-
 /* Staggered positioning for bottom row */
 .logo-5 {
   grid-column: 2 / 3; /* Centered below Logos 1 & 2 */
