@@ -136,6 +136,7 @@ function About() {
     <img src={MUImg} alt="MUA" className="partner-logo logo-6" />
     <p className="name">MUA INSURANCE</p>
     <img src={APAImg} alt="APA" className="partner-logo logo-7" />
+    <p className="name">APA INSURANCE</p>
 </div>
 
     </div>
