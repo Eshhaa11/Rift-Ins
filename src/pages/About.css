@@ -106,5 +106,40 @@
   overflow-wrap: break-word;
 }
 
+.partners-logos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 logos in the top row */
+  gap: 30px;
+  margin-top: 40px;
+  position: relative; /* Needed for staggered positioning */
+}
 
+.partner-logo {
+  max-width: 100px;
+  max-height: 60px;
+  object-fit: contain;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.partner-logo:hover {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+
+/* Staggered second row positioning */
+.logo-5 {
+  grid-column: 2 / 3; /* Centers under Logos 1 & 2 */
+  margin-top: -20px;  /* Slight upward shift for stagger effect */
+}
+
+.logo-6 {
+  grid-column: 3 / 4; /* Centers under Logos 3 & 4 */
+  margin-top: -20px;
+}
+
+.logo-7 {
+  grid-column: 4 / 5; 
+  margin-top: -20px;
+}
 
