@@ -139,7 +139,7 @@ function About() {
 
     <div className="partner">
         <img src={MayfairImg} alt="Mayfair" className="partner-logo" />
-        <p className="partner-name">Mayfair</p>
+        
     </div>
 
     <div className="partner">
