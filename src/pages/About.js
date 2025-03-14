@@ -12,12 +12,17 @@ import MayfairImg from "../assets/Mayfair.png";
 import OccidentalImg from "../assets/Occidental.png";
 import MUImg from "../assets/MUA-Logo.png";
 import APAImg from "../assets/Apa.png";
+import enterpriseImg from "../assets/enterprise.png";
+import taglineImg from "../assets/tagline.png";
+import visionImg from "../assets/vision.png";
+import targetImg from "../assets/target.png";
 
 function About() {
   return (
     <div className="about">
       <hr className="custom-hr" />
       <h1 className="about-heading">OUR AGENCY</h1>
+      <img src={enterpriseImg} alt="Agency" className="enterprise-img" />
       <p>
         Rift Nakuru Insurance Agencies Limited is a registered Insurance Agency
         managed by <br /> qualified & highly experienced personnel commited to
@@ -43,6 +48,8 @@ function About() {
       <div className="section-divider"></div>
 
       <h2 className="misson-statement">MISSION STATEMENT</h2>
+      <img src={targetImg} alt="Target" className="target-img" />
+
       <p>
         Rift Nakuru Insurance Agencies Ltd is a professional company providing{" "}
         <br /> exceptional insurance solutions through comprehensive risk
@@ -55,6 +62,7 @@ function About() {
       <div className="section-divider"></div>
 
       <h2 className="vision-statement">VISION STATEMENT</h2>
+      <img src={visionImg} alt="Target" className="vision-img" />
       <p>
         Our Vision is to be the leading provider of <br />
         insurance solutions in the region, <br />
@@ -66,6 +74,7 @@ function About() {
       <div className="section-divider"></div>
 
       <h2 className="motto">MOTTO</h2>
+      <img src={taglineImg} alt="Tagline" className="tagline-img" />
       <p>
         The company believes in the motto <br />
         "Securing your future" where our rates and services are tough to beat,{" "}
