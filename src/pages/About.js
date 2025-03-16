@@ -136,44 +136,43 @@ function About() {
       <div className="section-divider"></div>
       <h2 className="partners-heading">OUR PARTNERS</h2>
       <img src={dependableImg} alt="Partners" className="dependable-img" />
-<div className="partners-logos">
-    <div className="partner">
-        <img src={kenindiaImg} alt="Kenindia" className="partner-logo" />
-        
-    </div>
+      <div className="partners-logos">
+        <div className="partner">
+          <img src={kenindiaImg} alt="Kenindia" className="partner-logo" />
+        </div>
 
-    <div className="partner">
-        <img src={GeminiaImg} alt="Geminia" className="partner-logo" />
-       
-    </div>
+        <div className="partner">
+          <img src={GeminiaImg} alt="Geminia" className="partner-logo" />
+        </div>
 
-    <div className="partner">
-        <img src={FirstAssuranceImg} alt="First Assurance" className="partner-logo" />
-       
-    </div>
+        <div className="partner">
+          <img
+            src={FirstAssuranceImg}
+            alt="First Assurance"
+            className="partner-logo"
+          />
+        </div>
 
-    <div className="partner">
-        <img src={MayfairImg} alt="Mayfair" className="partner-logo" />
-        
-    </div>
+        <div className="partner">
+          <img src={MayfairImg} alt="Mayfair" className="partner-logo" />
+        </div>
 
-    <div className="partner">
-        <img src={OccidentalImg} alt="Occidental" className="partner-logo logo-5" />
-        
-    </div>
+        <div className="partner">
+          <img
+            src={OccidentalImg}
+            alt="Occidental"
+            className="partner-logo logo-5"
+          />
+        </div>
 
-    <div className="partner">
-        <img src={MUImg} alt="MUA" className="partner-logo logo-6" />
-        
-    </div>
+        <div className="partner">
+          <img src={MUImg} alt="MUA" className="partner-logo logo-6" />
+        </div>
 
-    <div className="partner">
-        <img src={APAImg} alt="APA" className="partner-logo logo-7" />
-        
-    </div>
-</div>
-
-
+        <div className="partner">
+          <img src={APAImg} alt="APA" className="partner-logo logo-7" />
+        </div>
+      </div>
     </div>
   );
 }
