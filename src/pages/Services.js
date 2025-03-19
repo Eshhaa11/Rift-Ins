@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Services.css"; // Importing CSS
+import "./Services.css"; 
 import ShieldIcon from "../images/shield.png";
 import LifeInsuranceIcon from "../images/life-insurance.png";
 import HealthCareIcon from "../images/healthcare.png";
