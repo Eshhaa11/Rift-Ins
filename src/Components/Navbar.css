@@ -3,13 +3,14 @@
 
 
   body {
+    padding-top: 100px;
     height: 100vh;
     margin: 0;
     overflow-x: hidden; 
     
   }
 
-
+  
   
   
   nav ul {
@@ -22,6 +23,7 @@
     justify-content: center;
     top: -120px; 
     left: 290px;
+
     
   }
 
