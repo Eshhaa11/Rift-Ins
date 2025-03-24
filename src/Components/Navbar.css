@@ -13,6 +13,8 @@
   nav {
     position: fixed;    
     width: 100%;      
+    top: 140px;
+    z-index: 999;
     
 }
   
