@@ -14,7 +14,11 @@ const Contact = () => {
      </p>
      <div className="Form">
       <form>
+         <input type = "text" className="form-control" placeholder="Name" />{
         
+            
+          }
+         }
       </form>
      </div>
      </div>
