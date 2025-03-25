@@ -32,6 +32,7 @@ const Contact = () => {
         type= "text"
         name="email"
         className="input"
+        placeholder="Email"
       </label>
       </form>
     </div>
