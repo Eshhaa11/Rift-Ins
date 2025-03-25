@@ -20,5 +20,6 @@
 .contact p{
     font-family: 'Poppins';
     font-size: 30px;
+    font-weight: bold;
     color: rgb(0, 102, 165);
 }
