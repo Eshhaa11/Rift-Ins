@@ -17,7 +17,7 @@ const Contact = () => {
      <p className="message">
         Fill in the form below and we will get back to you with a quote.
       </p>
-      
+      </form>
     </div>
   );
 };
