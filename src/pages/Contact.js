@@ -7,6 +7,7 @@ const Contact = () => {
       <hr className="custom-hr" />
       <h1 className="contact-heading">CONTACT US</h1>
       <p>Reach Out For Any Queries</p>
+      <p className="help">We are here to help you with any concerns </p>
      </div>
   );
 };
