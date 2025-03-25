@@ -43,6 +43,7 @@ const Contact = () => {
         name= "telephone"	
         className="input"
         placeholder="Phone Number"
+        />
       </label>
       </form>
     </div>
