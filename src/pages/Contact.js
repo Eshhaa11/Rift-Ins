@@ -14,7 +14,10 @@ const Contact = () => {
      </p>
      <form className="form" onSubmit={handleSubmit}>
      <p className="title">Get a Quote</p>
-     
+     <p className="message">
+        Fill in the form below and we will get back to you with a quote.
+      </p>
+      
     </div>
   );
 };
