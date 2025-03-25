@@ -3,11 +3,11 @@ import  "./Contact.css";
 
 const Contact = () => { 
   return (
-    <div>
-      <hr className="contact-hr"/>
-      <h1>Contact Us</h1>
-      <p>Reach out to us for any insurance inquiries.</p>
-    </div>
+    <div className="contact">
+      <hr className="custom-hr" />
+      <h1 className="contact-heading">CONTACT US</h1>
+      <p>Reach Out For Any Queries</p>
+     </div>
   );
 };
 
