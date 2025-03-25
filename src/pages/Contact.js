@@ -52,7 +52,7 @@ const Contact = () => {
         name="message"
         className="input"
         placeholder="Message"
-
+        />
       </label>
       </form>
     </div>
