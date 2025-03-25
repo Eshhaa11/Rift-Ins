@@ -29,7 +29,8 @@ const Contact = () => {
 
       <label>
         <input 
-        
+        type= "text"
+        name="email"
       </label>
       </form>
     </div>
