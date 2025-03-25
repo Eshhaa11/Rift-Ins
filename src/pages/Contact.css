@@ -33,3 +33,9 @@
     position: relative;
     top: 50px;
 }
+
+.contact fa fa-phone {
+    color:  rgb(0, 102, 165);
+    font-size: 50px;
+    margin-right: 10px;
+}
