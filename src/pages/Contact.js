@@ -24,6 +24,8 @@ const Contact = () => {
           name="fullName"
           className="input"
           placeholder="Full Name"
+          />
+      </label>
       </form>
     </div>
   );
