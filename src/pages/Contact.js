@@ -12,9 +12,9 @@ const Contact = () => {
       <i className="fa fa-phone" aria-hidden="true"></i> 
        Phone: +254 722 200 000
      </p>
-     <form className="form">
-     <p className="title">Get a Quote</p>
-     <p className="message">
+     <form className="contact-form">
+     <p className="title1">Get a Quote</p>
+     <p className="messagee">
         Fill in the form below and we will get back to you soon.
       </p>
 
