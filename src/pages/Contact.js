@@ -27,7 +27,10 @@ const Contact = () => {
           />
       </label>
 
-      <label></label>
+      <label>
+        <input 
+        
+      </label>
       </form>
     </div>
   );
