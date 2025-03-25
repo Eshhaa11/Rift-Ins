@@ -20,8 +20,9 @@ const Contact = () => {
               <a href="mailto:info@riftinsurance.com">info@riftinsurance.com</a>
             </p>
             <p>
-              <i class="fas fa-map-marker-alt"></i> Location: Rift Valley
-              Towers, Nakuru, Kenya
+              <i class="fas fa-map-marker-alt"></i> Location: Rift Nakuru Insurance Agencies Ltd < br/> 
+               Section 58 < br/>
+               Nakuru, Kenya
             </p>
           </div>
 
