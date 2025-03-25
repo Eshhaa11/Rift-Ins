@@ -1,3 +1,24 @@
+    
+
+.contact-form {
+    width: 100%;
+    max-width: 400px; /* Keeps the form at a fixed size */
+    margin-top: 30px; /* Adds space between the form and other content */
+    position: relative; 
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+    justify-content: center; /* Centers the contact details and map */
+}
+
+.map-container {
+    width: 100%;
+    max-width: 600px; /* Keeps the map size stable */
+}
+
 .contact-hr {
     border: none;
     height: 4px;
