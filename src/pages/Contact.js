@@ -8,6 +8,11 @@ const Contact = () => {
       <h1 className="contact-heading">CONTACT US</h1>
       <p>Reach Out For Any Queries</p>
       <p className="help">We are here to help you with any concerns </p>
+      <p className="contact-info">
+      <i className="fa fa-phone" aria-hidden="true"></i> 
+       Phone: +254 722 200 000
+     </p>
+
      </div>
   );
 };
