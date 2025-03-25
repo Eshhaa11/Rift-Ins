@@ -25,3 +25,9 @@
     position: relative;
     left: 50px;
 }
+
+.contact .help {
+    color: rgb(90, 165, 41);
+    font-size: 15px;
+    margin-top: 30px;
+}
