@@ -38,6 +38,7 @@ const Contact = () => {
 
 
       <label>
+        <input
         
       </label>
       </form>
