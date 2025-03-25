@@ -48,7 +48,8 @@ const Contact = () => {
 
       <label>
         <text area 
-        
+        name="message"
+
       </label>
       </form>
     </div>
