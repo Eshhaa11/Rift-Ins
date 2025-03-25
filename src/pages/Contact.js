@@ -9,8 +9,19 @@ const Contact = () => {
       <p>Reach Out For Any Queries</p>
       <p className="help">We are here to help you with any concerns </p>
       <p className="contact-info">
-      <i className="fa fa-phone" aria-hidden="true"></i> 
-       Phone: +254 722 200 000
+    
+
+      <div class="contact-container">
+
+  <div class="contact-info">
+    <p><i class="fas fa-phone"></i> Phone: <a href="tel:+254712345678">+254 712 345 678</a></p>
+    <p><i class="fas fa-envelope"></i> Email: <a href="mailto:info@riftinsurance.com">info@riftinsurance.com</a></p>
+    <p><i class="fas fa-map-marker-alt"></i> Location: Rift Valley Towers, Nakuru, Kenya</p>
+  </div>
+</div>
+
+
+         
      </p>
      <form className="contact-form">
      <p className="messagee">
