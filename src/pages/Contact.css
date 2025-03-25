@@ -34,13 +34,13 @@
     top: 50px;
 }
 
-.contact contact-form{
+.contact .contact-form{
     max-width: 450px;
     margin: 50px auto;  
     padding: 30px;
     background: rgb(0, 102, 165);
     position: relative;
-    top: -350px;
+    top: -240px;
     right: -370px;
     border-radius: 10px;
     border: 3px solid rgb(90, 165, 41); 
