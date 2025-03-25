@@ -15,7 +15,7 @@ const Contact = () => {
      <form className="form">
      <p className="title">Get a Quote</p>
      <p className="message">
-        Fill in the form below and we will get back to you with a quote.
+        Fill in the form below and we will get back to you soon.
       </p>
       </form>
     </div>
