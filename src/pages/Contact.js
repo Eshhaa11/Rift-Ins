@@ -12,16 +12,9 @@ const Contact = () => {
       <i className="fa fa-phone" aria-hidden="true"></i> 
        Phone: +254 722 200 000
      </p>
-     <div className="Form">
-      <form>
-         <input type = "text" className="form-control" placeholder="Name" />{
-        
-            
-          }
-         }
-      </form>
-     </div>
-     </div>
+     <form className="form" onSubmit={handleSubmit}>
+      
+    </div>
   );
 };
 
