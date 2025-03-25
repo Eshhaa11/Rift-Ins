@@ -14,6 +14,7 @@ const Contact = () => {
      </p>
      <form className="form" onSubmit={handleSubmit}>
      <p className="title">Get a Quote</p>
+     
     </div>
   );
 };
