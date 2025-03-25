@@ -2,7 +2,7 @@
 
 .contact-form {
     width: 100%;
-    max-width: 400px; /* Keeps the form at a fixed size */
+    max-width: 400px;
     margin-top: 30px; /* Adds space between the form and other content */
     position: relative; 
 }
