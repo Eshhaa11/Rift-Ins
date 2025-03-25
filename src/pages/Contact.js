@@ -12,7 +12,11 @@ const Contact = () => {
       <i className="fa fa-phone" aria-hidden="true"></i> 
        Phone: +254 722 200 000
      </p>
-
+     <div className="Form">
+      <form>
+        
+      </form>
+     </div>
      </div>
   );
 };
