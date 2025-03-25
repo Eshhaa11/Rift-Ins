@@ -17,6 +17,13 @@ const Contact = () => {
      <p className="message">
         Fill in the form below and we will get back to you soon.
       </p>
+
+      <label>
+        <input
+          type="text"
+          name="fullName"
+          className="input"
+          placeholder="Full Name"
       </form>
     </div>
   );
