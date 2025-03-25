@@ -31,6 +31,7 @@ const Contact = () => {
         <input 
         type= "text"
         name="email"
+        className="input"
       </label>
       </form>
     </div>
