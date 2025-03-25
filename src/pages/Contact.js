@@ -48,7 +48,9 @@ const Contact = () => {
 
       <label>
         <text area 
+        type= "text"
         name="message"
+        className="input"
 
       </label>
       </form>
