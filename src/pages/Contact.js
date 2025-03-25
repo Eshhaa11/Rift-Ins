@@ -13,7 +13,6 @@ const Contact = () => {
        Phone: +254 722 200 000
      </p>
      <form className="contact-form">
-     <p className="title1">Get a Quote</p>
      <p className="messagee">
         Fill in the form below and we will get back to you soon.
       </p>
