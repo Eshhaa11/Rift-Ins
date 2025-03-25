@@ -47,6 +47,7 @@ const Contact = () => {
       </label>
 
       <label>
+        <text area 
         
       </label>
       </form>
