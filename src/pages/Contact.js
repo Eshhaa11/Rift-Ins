@@ -39,7 +39,7 @@ const Contact = () => {
 
       <label>
         <input
-        
+        type= "text"
       </label>
       </form>
     </div>
