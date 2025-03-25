@@ -45,6 +45,10 @@ const Contact = () => {
         placeholder="Phone Number"
         />
       </label>
+
+      <label>
+        
+      </label>
       </form>
     </div>
   );
