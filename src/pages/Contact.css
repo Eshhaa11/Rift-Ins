@@ -8,3 +8,11 @@
     left: 0;
     z-index: 999;
 }
+
+.contact-heading {
+    color: rgb(90, 165, 41);
+    font-family: 'Poppins';
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
