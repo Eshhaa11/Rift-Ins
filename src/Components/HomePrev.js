@@ -1,36 +1,29 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./HomePrev.css";
+import "./HomePrev.css"; // Import the CSS
 
 const HomePrev = () => {
   return (
-    <section className="section-preview">
-      <div className="preview-item">
-        <h3>About Us</h3>
-        <p>
-          We are a reliable and trusted insurance provider. Our mission is to
-          help you secure your future with flexible insurance options tailored
-          to your needs.
-        </p>
-        <Link to="/about" className="read-more-link">Read More</Link>
-      </div>
+    <section className="home-prev">
+      <h2>Discover Our Services</h2>
+      <div className="preview-container">
+        <div className="preview-card">
+          <h3>About Us</h3>
+          <p>Learn more about Rift Nakuru and how we prioritize your security.</p>
+          <Link to="/about">Read More</Link>
+        </div>
 
-      <div className="preview-item">
-        <h3>Insurance Services</h3>
-        <p>
-          Explore our wide range of insurance plans. From life to medical and
-          general coverage, we’ve got you covered for all your needs.
-        </p>
-        <Link to="/services" className="read-more-link">Read More</Link>
-      </div>
+        <div className="preview-card">
+          <h3>Insurance Services</h3>
+          <p>Explore the wide variety of insurance services we offer to secure your future.</p>
+          <Link to="/services">Read More</Link>
+        </div>
 
-      <div className="preview-item">
-        <h3>Contact Us</h3>
-        <p>
-          Have questions? Reach out to us, and we'll be happy to assist you
-          with your insurance needs. Our team is here for you.
-        </p>
-        <Link to="/contact" className="read-more-link">Read More</Link>
+        <div className="preview-card">
+          <h3>Contact Us</h3>
+          <p>Get in touch with us for any queries or assistance.</p>
+          <Link to="/contact">Contact Now</Link>
+        </div>
       </div>
     </section>
   );
