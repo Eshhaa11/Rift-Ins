@@ -11,7 +11,7 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 
-// Define App component
+
 function App() {
   const location = useLocation();  
 
@@ -29,24 +29,23 @@ function App() {
         </h1>
       </div>
 
-      {/* Navbar */}
+      
       <NavbarComp />
 
       <div className="page-container">
         <Routes>
-          {/* Homepage Route */}
           <Route 
             path="/" 
             element={
               <div className="home">
                 <Hero />
                 <Features />
-                <HomePrev />  {/* Add the preview of About, Services, and Contact here */}
+                <HomePrev /> 
               </div>
             }
           />
 
-          {/* Other Routes */}
+          
           <Route path="/about" element={<div className="about-page"><About /></div>} />
           <Route path="/services" element={<div className="services-page"><Services /></div>} />
           <Route path="/contact" element={<div className="contact-page"><Contact /></div>} />
@@ -56,10 +55,9 @@ function App() {
   );
 }
 
-// Wrap the entire app with Router
 function AppWrapper() {
   return (
-    <Router>  {/* Wrap App inside Router */}
+    <Router> 
       <App />
     </Router>
   );
