@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./HomePrev.css"; // Import the CSS
+import "./HomePrev.css"; 
 
 const HomePrev = () => {
   return (
