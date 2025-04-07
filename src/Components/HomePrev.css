@@ -34,7 +34,7 @@
   
   .home-prev .preview-card h3 {
     font-size: 1.5rem;
-    color: #003366;
+    color: rgb(0, 102, 165);
     margin-bottom: 10px;
   }
   
@@ -46,13 +46,13 @@
   
   .home-prev .preview-card a {
     font-size: 1rem;
-    color: #0066cc;
+    color:  rgb(0, 102, 165);
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
   }
   
   .home-prev .preview-card a:hover {
-    color: #004d99;
+    color: rgb(0, 102, 165);
   }
   
