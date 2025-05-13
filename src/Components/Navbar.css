@@ -86,7 +86,6 @@
     transform: scaleY(1);
     opacity: 1;
   }
-
   nav ul li a:hover::after {
     transform: scale(1);
     opacity: 1;
