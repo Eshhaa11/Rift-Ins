@@ -1,58 +1,57 @@
 .home-prev {
-    background-color: #f4f4f4; 
-    padding: 60px 20px;
-    text-align: center;
-  }
-  
-  .home-prev h2 {
-    font-size: 2rem;
-    color: rgb(90, 165, 41);
-    margin-bottom: 30px;
-  }
-  
-  .home-prev .preview-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-  }
-  
-  .home-prev .preview-card {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 250px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .home-prev .preview-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
-  }
-  
-  .home-prev .preview-card h3 {
-    font-size: 1.5rem;
-    color: rgb(0, 102, 165);
-    margin-bottom: 10px;
-  }
-  
-  .home-prev .preview-card p {
-    color: #666;
-    font-size: 1rem;
-    margin-bottom: 20px;
-  }
-  
-  .home-prev .preview-card a {
-    font-size: 1rem;
-    color:  rgb(0, 102, 165);
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
-  }
-  
-  .home-prev .preview-card a:hover {
-    color: rgb(0, 102, 165);
-  }
-  
+  background-color: #f4f4f4;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.home-prev h2 {
+  font-size: 2rem;
+  color: rgb(90, 165, 41);
+  margin-bottom: 30px;
+}
+
+.home-prev .preview-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.home-prev .preview-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 250px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.home-prev .preview-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.home-prev .preview-card h3 {
+  font-size: 1.5rem;
+  color: rgb(0, 102, 165);
+  margin-bottom: 10px;
+}
+
+.home-prev .preview-card p {
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.home-prev .preview-card a {
+  font-size: 1rem;
+  color: rgb(0, 102, 165);
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.home-prev .preview-card a:hover {
+  color: rgb(0, 102, 165);
+}
