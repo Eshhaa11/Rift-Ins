@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./HomePrev.css"; 
+import "./HomePrev.css";
 
 const HomePrev = () => {
   return (
@@ -9,13 +9,18 @@ const HomePrev = () => {
       <div className="preview-container">
         <div className="preview-card">
           <h3>About Us</h3>
-          <p>Learn more about Rift Nakuru and how we prioritize your security.</p>
+          <p>
+            Learn more about Rift Nakuru and how we prioritize your security.
+          </p>
           <Link to="/about">Read More</Link>
         </div>
 
         <div className="preview-card">
           <h3>Insurance Services</h3>
-          <p>Explore the wide variety of insurance services we offer to secure your future.</p>
+          <p>
+            Explore the wide variety of insurance services we offer to secure
+            your future.
+          </p>
           <Link to="/services">Read More</Link>
         </div>
 
