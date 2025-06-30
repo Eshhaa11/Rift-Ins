@@ -11,7 +11,14 @@
   background-color: white; 
   padding: 10px 20px;
   width: 100%;
+  position: fixed; 
+  z-index: 999;
 }
+
+.page-container {
+  padding-top: 160px; 
+}
+
 
 .app-logo {
   width: 100px; 
