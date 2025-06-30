@@ -1,23 +1,20 @@
+import React from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
-import { Link } from "react-router-dom"
 
-function NavbarComp() {
+const NavbarComp = () => {
   return (
-   <div>
-    <nav>
-        <ul>
-            <Link className="nav-link" to="/home">Home</Link>
-            <Link className="nav-link" to="/about">About</Link>
-            <Link className="nav-link" to="/services">Insurance Services</Link>
-            <Link className="nav-link" to="/contact">Contact Us</Link>
-           
-        </ul>
+    <nav className="navbar">
+      <ul className="nav-menu">
+        <li><Link className="nav-link" to="/">Home</Link></li>
+        <li><Link className="nav-link" to="/about">About Us</Link></li>
+        <li><Link className="nav-link" to="/services">Insurance Services</Link></li>
+        <li><Link className="nav-link" to="/contact">Contact Us</Link></li>
+      </ul>
     </nav>
-    </div>
-
   );
-}
+};
 
 export default NavbarComp;
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+
